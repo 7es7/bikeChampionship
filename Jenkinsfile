@@ -16,11 +16,11 @@ pipeline {
                 //sh 'mvn test'
                 sh "echo 'Tests can be here'"
             }
-            post {
-                always {
-                    junit 'target/surefire-reports/*.xml' 
-                }
-            }
+            //post {
+            //    always {
+            //        junit 'target/surefire-reports/*.xml' 
+            //    }
+            //}
         }
     }
 }
