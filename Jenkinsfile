@@ -13,7 +13,8 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                //sh 'mvn test' 
+                //sh 'mvn test'
+                sh "echo 'Tests can be here'"
             }
             post {
                 always {
