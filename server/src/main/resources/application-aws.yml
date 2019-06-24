@@ -5,9 +5,9 @@
 #Datasourse props
 spring:
   datasource:
-    url: jdbc:mysql://10.10.0.4:3306/bike_championship?useUnicode=true&characterEncoding=utf8&useSSL=false&verifyServerCertificate=false
-    username: bike_championship
-    password: bike_championship
+    url: jdbc:mysql://back:3306/bikechampionship?useUnicode=true&characterEncoding=utf8&useSSL=false&verifyServerCertificate=false
+    username: bikechampionship
+    password: bikechampionship
   jpa:
     hibernate:
       ddl-auto: create-drop
